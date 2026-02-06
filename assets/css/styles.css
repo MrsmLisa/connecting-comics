@@ -16,7 +16,7 @@ body {
 
 h1, h2, h3 {
     font-family: "caveat brush", sans-serif;
-    color: #f56809;
+    color: black;
 }
 
 .navbar * {
@@ -25,8 +25,20 @@ h1, h2, h3 {
 
 .navbar-brand {
     font-family: "caveat brush", sans-serif;
-    color: #f56809;
-    font-size: 30px;
+    font-size: 34px;
+}
+
+footer {
+    background-color: #f9c703;
+}
+
+footer, h1, h2, h3 {
+    color: black;
+}
+
+#larger {
+    font-size: 50px;
+    padding-top: 5px;
 }
 
 
