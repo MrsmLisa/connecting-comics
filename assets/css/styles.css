@@ -1,0 +1,32 @@
+/* Google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@300..700&display=swap');
+
+/* Colors
+#f9c703 Yellow
+#f56809 Orange
+#ea006b Pink
+*/
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "quicksand", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "caveat brush", sans-serif;
+    color: #f56809;
+}
+
+.navbar * {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: "caveat brush", sans-serif;
+    color: #f56809;
+    font-size: 30px;
+}
+
+
