@@ -35,12 +35,21 @@ footer {
 
 footer, h1, h2, h3 {
     color: white;
-    padding-top: 6px;
+    padding-top: 10px;
     margin: 0px;
 }
 
 address {
     margin-bottom: 5px;
+}
+
+#social-media {
+    color: white;
+    font-size: 2rem;
+}
+
+footer p {
+    margin: 1px;
 }
 
 
