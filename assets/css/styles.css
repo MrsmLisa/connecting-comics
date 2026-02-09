@@ -29,18 +29,29 @@ h1, h2, h3 {
     font-size: 24px;
 }
 
+header h1 {
+    color: white;
+    font-size: 320%;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+header {
+    background-color: white;
+    background-image: url(../images/Doodle\ jpg.png);
+    background-size: cover;
+    min-height: 200px;
+
+}
+
 footer {
     background-color: #ea006b;
 }
 
-footer, h1, h2, h3 {
+footer, footer h1, footer h3 {
     color: white;
     padding-top: 10px;
     margin: 0px;
-}
-
-address {
-    margin-bottom: 5px;
 }
 
 #social-media {
@@ -48,9 +59,6 @@ address {
     font-size: 2rem;
 }
 
-footer p {
-    margin: 1px;
-}
 
 
 
