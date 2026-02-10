@@ -64,6 +64,12 @@ header {
     max-height: 200px;
 }
 
+#sign-up {
+    color: white;
+    background-color: #0ea9c1;
+    border: none;
+}
+
 #drink-and-draw h1 {
     color: white;
     font-size: 320%;
