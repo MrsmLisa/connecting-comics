@@ -7,6 +7,7 @@
 #f9c703 Yellow
 #f56809 Orange
 #ea006b Pink
+#f3a1c6 light pink
 */
 
 body {
@@ -38,7 +39,7 @@ header h1 {
 
 header {
     background-color: #ea006b;
-    background-image: url(../images/Doodle\ jpg.png);
+    background-image: url(../images/Doodle-outline-svart.png);
     background-size: cover;
     min-height: 400px;
 }
@@ -53,14 +54,14 @@ header {
     color: white;
     font-size: 320%;
     text-align: center;
-    padding: 11rem 0 2rem 0;
+    padding: 4rem 0 2rem 0;
 }
 
 #workshop {
     background-color: #f56809;
-    background-image: url(../images/Doodle\ orange.png);
+    background-image: url(../images/Doodle-outline-svart.png);
     background-size: cover;
-    min-height: 400px;
+    max-height: 200px;
 }
 
 .img-workshop {
