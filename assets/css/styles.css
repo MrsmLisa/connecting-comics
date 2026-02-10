@@ -58,6 +58,20 @@ header {
 }
 
 #workshop {
+    background-color: #0ea9c1;
+    background-image: url(../images/Doodle-outline-svart.png);
+    background-size: cover;
+    max-height: 200px;
+}
+
+#drink-and-draw h1 {
+    color: white;
+    font-size: 320%;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+#drink-and-draw {
     background-color: #f56809;
     background-image: url(../images/Doodle-outline-svart.png);
     background-size: cover;
