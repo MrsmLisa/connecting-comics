@@ -21,7 +21,7 @@
 
   <body>
     <!-- Bootstrap Navbar with Toggle -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Connecting Comics</a>
         <button
@@ -40,9 +40,10 @@
             <a class="nav-link active" aria-current="page" href="index.html"
               >Home</a
             >
-            <a class="nav-link" href="#">Workshops</a>
-            <a class="nav-link" href="#">Drink & Draw</a>
+            <a class="nav-link" href="#workshop">Workshops</a>
+            <a class="nav-link" href="#d-and-d">Drink & Draw</a>
             <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#">Become a member</a>
           </div>
         </div>
       </div>
@@ -52,7 +53,7 @@
     <header id="hero" class="container">
       <section class="row">
         <div class="col-12" role="img" aria-label="speach bubbel fon comics">
-          <h1>Connecting Comics</h1>
+          <h1 id="title-size">Connecting Comics</h1>
         </div>
       </section>
     </header>
@@ -74,7 +75,7 @@
     </section>
     <section id="membership" class="container">
       <div class="row justify-content-center">
-         <div class="col-12 m-4">
+         <div class="col-12">
           <img src="assets/images/kyle-ryan-fdvG_JVAOVw-unsplash.png" alt="desk with workshop materials on it" class="img-fluid">
         </div>
         <div class="col-12 col-md-6 text-center m-4">
@@ -84,7 +85,7 @@
             Becoming a member is free so come and join us!
           </p>
           <!-- Button from Bootstrap -->
-          <button id="member" type="button" class="btn btn-primary mt-5 mb-2">
+          <button id="member" type="button" class="btn btn-primary m-2">
             Become a member!
           </button>
         </div>
@@ -101,14 +102,14 @@
             role="img"
             aria-label="speach bubbel fon comics"
           >
-            <h1>Workshops</h1>
+            <h1 id="title-size">Workshops</h1>
           </div>
         </div>
       </section>
 
       <section class="container">
         <div class="row justify-content-center">
-         <div class="text-center mt-5">
+         <div class="text-center m-4">
           <h1>Beginner course</h1>
          </div>
           <div class="col-12 col-md-5 mt-4">
@@ -144,7 +145,7 @@
         </div>
          <div class="col-12 text-center">
            <!-- Button from Bootstrap -->
-          <button id="sign-up" type="button" class="btn btn-primary mt-5 mb-2">
+          <button id="sign-up" type="button" class="btn btn-primary m-4">
             Sign up for workshops!
           </button>
           </div>
@@ -196,20 +197,35 @@
           </div>
           <div class="col-12 text-center">
            <!-- Button from Bootstrap -->
-          <button id="sign-up" type="button" class="btn btn-primary mt-3 mb-5">
+          <button id="sign-up" type="button" class="btn btn-primary m-4">
             Sign up for workshops!
           </button>
           </div>
       </section>
         <section class="container">
-        <div class="row">
+        <div class="row" id="d-and-d">
           <div
             class="col-12"
             id="drink-and-draw"
             role="img"
             aria-label="speach bubbel from comics"
           >
-            <h1>Drink & Draw</h1>
+            <h1 id="title-size">Drink & Draw</h1>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center m-4">
+            <h1>Come join us for drinks!</h1>
+          </div>
+          <div class="col-12 col-md-5">
+            <p>Grab a drink, pick up a pen, and draw some comics with us! Join us for a relaxed Drink & Draw session where artists of all levels come together to sketch, share ideas, and have fun. No pressure, no experience required — just good vibes, comics, and creative company. Bring your sketchbook, invite a friend, and let’s draw together!</p>
+            <p>We provide coffee, tea and soda. If you want anything els you are welcome to bring it. Alcohol is allowed but you must be able to prove your age.</p>
+            <p><strong>We meet on Fridays at 6pm.</strong></p>
+          </div>
+          <div class="col-12 col-md-5 mb-4">
+            <img src="assets/images/image-generator (1).png" alt="four people at a cafe drinking coffee and drawing" class="img-fluid">
           </div>
         </div>
       </section>

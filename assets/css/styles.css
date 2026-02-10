@@ -23,6 +23,7 @@ h1, h2, h3 {
 
 .navbar * {
     background-color: white;
+    text-align: center;
 }
 
 .navbar-brand {
@@ -32,7 +33,6 @@ h1, h2, h3 {
 
 header h1 {
     color: white;
-    font-size: 320%;
     text-align: center;
     padding: 10rem 0 2rem 0;
 }
@@ -97,6 +97,22 @@ footer, footer h1, footer h3 {
 #social-media {
     color: white;
     font-size: 2rem;
+}
+
+#title-size {
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    #title-size {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    #title-size {
+        font-size: 7rem;
+    }
 }
 
 
