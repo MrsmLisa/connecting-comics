@@ -31,22 +31,32 @@ h1, h2, h3 {
     font-size: 24px;
 }
 
+#hero {
+    background-color: #f7a4c9;
+    background-image: url(../images/Doodle-outline-rosa1.png);
+    background-size: cover;
+}
+
 header h1 {
     color: white;
     text-align: center;
     padding: 10rem 0 2rem 0;
 }
 
-header {
-    background-color: #ea006b;
-    background-image: url(../images/Doodle-outline-svart.png);
-    background-size: cover;
-    min-height: 400px;
+#about, #membership, #card {
+    background-color: #f7a4c9;
 }
 
-#member {
+#workshop-card {
+    background-color: #67e1f4;
+}
+
+#dandd-card {
+    background-color: #f9924d;
+}
+.btn {
     color: white;
-    background-color: #ea006b;
+    background-color: black;
     border: none;
 }
 
@@ -57,35 +67,8 @@ header {
     padding: 4rem 0 2rem 0;
 }
 
-#workshop {
-    background-color: #0ea9c1;
-    background-image: url(../images/Doodle-outline-svart.png);
-    background-size: cover;
-    max-height: 200px;
-}
-
-#sign-up {
-    color: white;
-    background-color: #0ea9c1;
-    border: none;
-}
-
-#drink-and-draw h1 {
-    color: white;
-    font-size: 320%;
-    text-align: center;
-    padding: 4rem 0 2rem 0;
-}
-
-#drink-and-draw {
-    background-color: #f56809;
-    background-image: url(../images/Doodle-outline-svart.png);
-    background-size: cover;
-    max-height: 200px;
-}
-
 footer {
-    background-color: #ea006b;
+    background-color: black;
 }
 
 footer, footer h1, footer h3 {
