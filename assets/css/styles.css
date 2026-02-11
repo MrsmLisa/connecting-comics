@@ -27,6 +27,10 @@ h1, h2, h3 {
     border: none;
 }
 
+img {
+    border: 10px solid white;
+}
+
 .navbar-brand {
     font-family: "luckiest guy", sans-serif;
     font-size: 24px;
@@ -50,10 +54,12 @@ header h1 {
 
 #workshop-card {
     background-color: #67e1f4;
+    border: 10px solid white;
 }
 
 #dandd-card {
-    background-color: #f9924d;
+    background-color: #83ed52;
+    border: 10px solid white;
 }
 
 #hero-workshop {
@@ -64,6 +70,16 @@ header h1 {
 
 #blue {
     background-color: #67e1f4;
+}
+
+#hero-dandd {
+     background-color: #83ed52;
+    background-image: url(../images/Doodle-outline-rosa1.png);
+    background-size: cover;
+}
+
+#green {
+    background-color: #83ed52;
 }
 
 
