@@ -58,13 +58,13 @@ header h1 {
 }
 
 #dandd-card {
-    background-color: #83ed52;
+    background-color: #73f980;
     border: 10px solid white;
 }
 
 #hero-workshop {
     background-color: #67e1f4;
-    background-image: url(../images/Doodle-outline-rosa1.png);
+    background-image: url(../images/doodle-outline-blue.png);
     background-size: cover;
 }
 
@@ -73,13 +73,13 @@ header h1 {
 }
 
 #hero-dandd {
-     background-color: #83ed52;
-    background-image: url(../images/Doodle-outline-rosa1.png);
+     background-color: #73f980;
+    background-image: url(../images/doodle-outline-green.png);
     background-size: cover;
 }
 
 #green {
-    background-color: #83ed52;
+    background-color: #73f980;
 }
 
 
