@@ -27,11 +27,6 @@ h1, h2, h3 {
     border: none;
 }
 
-.navbar * {
-    background-color: white;
-    text-align: center;
-}
-
 .navbar-brand {
     font-family: "luckiest guy", sans-serif;
     font-size: 24px;
