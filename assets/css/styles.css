@@ -21,6 +21,12 @@ h1, h2, h3 {
     color: black;
 }
 
+.btn {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
 .navbar * {
     background-color: white;
     text-align: center;
@@ -54,18 +60,14 @@ header h1 {
 #dandd-card {
     background-color: #f9924d;
 }
-.btn {
-    color: white;
-    background-color: black;
-    border: none;
+
+#hero-workshop {
+    background-color: #67e1f4;
+    background-image: url(../images/Doodle-outline-rosa1.png);
+    background-size: cover;
 }
 
-#workshop h1 {
-    color: white;
-    font-size: 320%;
-    text-align: center;
-    padding: 4rem 0 2rem 0;
-}
+
 
 footer {
     background-color: black;
