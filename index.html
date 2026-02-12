@@ -21,7 +21,10 @@
 
   <body>
     <!-- Bootstrap Navbar with Toggle -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark border-bottom border-body" data-bs-theme="dark">
+    <nav
+      class="navbar navbar-expand-lg fixed-top bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Connecting Comics</a>
         <button
@@ -44,7 +47,6 @@
             <a class="nav-link" href="drink-and-draw.html">Drink & Draw</a>
             <a class="nav-link" href="membership.html">Become a member</a>
             <a class="nav-link" href="#contact">Contact</a>
-            
           </div>
         </div>
       </div>
@@ -59,71 +61,95 @@
       </section>
     </header>
     <main>
-    <!-- About section -->
-    <section id="about" class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-10 text-center m-4">
-          <h1>Welcome</h1>
-          <p> <strong>
-            We are a non-profit association dedicated to supporting comic
-            artists at every stage of their journey. Our goal is to create a
-            welcoming community where creators can learn, share, and grow
-            together. Whether you’re just starting out or already published,
-            there’s a place for you here.</strong>
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="index-photos" class="container">
-      <div class="row justify-content-center">
-        <div class="col-10 col-md-5 m-2">
-          <img src="assets/images/image-generator-workshop.webp" alt="four people making comics at a table" class="img-fluid">
-        </div>
-        <div class="col-10 col-md-5 m-2">
-          <img src="assets/images/image-generator-pens and brushes.webp" alt="different cups with pens and brushes in them" class="img-fluid">
-        </div>
-      </div>
-    </section>
-    <section id="card" class="container">
-      <div class="row justify-content-center">
-       <div class="col-10 col-md-5 m-2">
-          <div id="workshop-card" class="text-center p-3">
-            <h2>Workshops</h2>
-            <p>We offer free workshops for our members. Come join us!</p>
-             <!-- Button from Bootstrap -->
-          <button id="button-dandd" type="button" class="btn btn-primary m-2">
-            More information
-          </button>
+      <!-- About section -->
+      <section id="about" class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 text-center m-4">
+            <h1>Welcome</h1>
+            <p>
+              <strong>
+                We are a non-profit association dedicated to supporting comic
+                artists at every stage of their journey. Our goal is to create a
+                welcoming community where creators can learn, share, and grow
+                together. Whether you’re just starting out or already published,
+                there’s a place for you here.</strong
+              >
+            </p>
           </div>
         </div>
+      </section>
+      <section id="index-photos" class="container">
+        <div class="row justify-content-center">
           <div class="col-10 col-md-5 m-2">
-          <div id="dandd-card" class="text-center p-3">
-            <h2>drink & draw</h2>
-            <p>We meet once a week at different cafe's. Come join us!</p>
-             <!-- Button from Bootstrap -->
-          <button id="button-dandd" type="button" class="btn btn-primary m-2">
-            More information
-          </button>
+            <img
+              src="assets/images/image-generator-workshop.webp"
+              alt="four people making comics at a table"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-10 col-md-5 m-2">
+            <img
+              src="assets/images/image-generator-pens and brushes.webp"
+              alt="different cups with pens and brushes in them"
+              class="img-fluid"
+            />
           </div>
         </div>
-      </div>
-    </section>
-    <section id="membership" class="container">
-      <div class="row justify-content-center">
-         
-        <div class="col-12 col-md-6 text-center m-4">
-          <h2>Become a member</h2>
-          <p>
-            To take part in our workshops and event you have to be a member.
-            Becoming a member is free so come and join us!
-          </p>
-          <!-- Button from Bootstrap -->
-          <button id="member" type="button" class="btn btn-primary m-2">
-            Sign up!
-          </button>
+      </section>
+      <section id="card" class="container">
+        <div class="row justify-content-center">
+          <div class="col-10 col-md-5 m-2">
+            <div id="workshop-card" class="text-center p-3">
+              <h2>Workshops</h2>
+              <p>We offer free workshops for our members. Come join us!</p>
+              <!-- Button from Bootstrap -->
+              <a
+                href="workshop.html"
+                id="button-dandd"
+                type="button"
+                class="btn btn-primary m-2"
+              >
+                More information
+              </a>
+            </div>
+          </div>
+          <div class="col-10 col-md-5 m-2">
+            <div id="dandd-card" class="text-center p-3">
+              <h2>drink & draw</h2>
+              <p>We meet once a week at different cafe's. Come join us!</p>
+              <!-- Button from Bootstrap -->
+              <a
+                href="drink-and-draw.html"
+                id="button-dandd"
+                type="button"
+                class="btn btn-primary m-2"
+              >
+                More information
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="membership" class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 text-center m-4">
+            <h2>Become a member</h2>
+            <p>
+              To take part in our workshops and event you have to be a member.
+              Becoming a member is free so come and join us!
+            </p>
+            <!-- Button from Bootstrap -->
+            <a
+              href="membership.html"
+              id="member"
+              type="button"
+              class="btn btn-primary m-2"
+            >
+              Sign up!
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer -->
     <footer id="footer">
@@ -189,11 +215,13 @@
               ></textarea
               ><br />
               <!-- Button from Bootstrap -->
-              <input
+              <a
                 class="btn-outline btn-secondary mb-5"
                 type="submit"
                 value="Submit"
-              /><br />
+                href="#"
+              ></a>
+              <br />
             </form>
           </div>
         </div>
