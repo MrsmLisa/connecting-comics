@@ -70,54 +70,38 @@
           <h1>Become a member!</h1>
         </div>
         <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8 mb-5">
+          <div class="col-12 col-md-10 col-lg-6">
             <form action="sign-up" method="get" class="row">
-              <div class="col-12">
-                <label for="name" class="form-label">Full Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="full-name"
-                  required
-                />
-              </div>
-              <div class="col-12">
-                <label for="address" class="form-label">Street address</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="street-address"
-                  required
-                />
-              </div>
-              <div class="col-12 col-md-6">
-                <label for="post-code" class="form-label">Postal Code</label>
-                <input
-                  type="number"
-                  class="form-control"
-                  id="post-code"
-                  required
-                />
-              </div>
-              <div class="col-12 col-md-6">
-                <label for="city" class="form-label">City</label>
-                <input type="text" class="form-control" id="city" required />
-              </div>
-              <div class="col-12 col-md-6">
-                <label for="phonenumber" class="form-label">Phone Number</label>
-                <input
-                  type="number"
-                  class="form-control"
-                  id="phonenumber"
-                  required
-                />
-              </div>
-              <div class="col-12 col-md-6">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required />
-              </div>
+              <label for="name">Full Name</label><br />
+              <input type="text" id="full-name" class="col-12" required />
+
+              <label for="address">Street address</label><br />
+              <input type="text" id="street-address" class="col-12" required />
+
+              <label for="post-code">Postal Code</label><br />
+              <input
+                type="text"
+                id="post-code"
+                class="col-12 col-md-5"
+                required
+              />
+
+              <label for="city">City</label><br />
+              <input type="text" class="col-12 col-md-5" id="city" required />
+
+              <label for="phonenumber">Phone Number</label><br />
+              <input
+                type="tel"
+                id="phonenumber"
+                class="col-12 col-md-5"
+                required
+              />
+
+              <label for="email">Email</label><br />
+              <input type="email" class="col-12 col-md-5" id="email" required />
+
               <!-- Button from Bootstrap -->
-              <div class="text-center mt-2">
+              <div class="text-center m-3">
                 <a
                   href="#"
                   id="submit"
@@ -196,12 +180,14 @@
               ></textarea
               ><br />
               <!-- Button from Bootstrap -->
-              <a
-                class="btn-outline btn-secondary mb-5"
-                type="submit"
-                value="Submit"
-                href="#"
-              ></a>
+             <a
+              href="#"
+              id="sign-up-button"
+              type="button"
+              class="btn btn-primary m-4"
+            >
+              Sign up!
+            </a>
               <br />
             </form>
           </div>
