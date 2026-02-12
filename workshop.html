@@ -110,9 +110,9 @@
         </div>
          <div class="col-12 text-center">
            <!-- Button from Bootstrap -->
-          <button id="sign-up" type="button" class="btn btn-primary m-4">
+          <a href="#workshop-form" type="button" class="btn btn-primary m-4">
             Sign up for workshops!
-          </button>
+          </a>
           </div>
       </section>
       <!--Advanced workshops-->
@@ -164,11 +164,47 @@
           <div class="col-12 col-md-10 col-lg-8">
             <img src="assets/images/1.jpeg" alt="a person drawing on a picture on the wall" class="img-fluid">
           </div>
+          </section>
+          <!--Sign up for workshops-->
+          <section id="blue" class="container">
+            <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 mt-4" id="workshop-form">
+            <h3>Sign Up for Workshops</h3>
+            <form action="workshop-form" method="get">
+              <label for="name">Name</label><br />
+              <input
+                class="col-12 col-md-6"
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Your Name"
+              /><br />
+              <label for="email">Email</label><br />
+              <input
+                class="col-12 col-md-6"
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Email"
+              /><br />
+              <label for="message">Workshop</label><br />
+              <select name="workshop-form" id="workshop-form" class="" required>
+             <option value="">Select</option>
+             <option>Beginners</option>
+             <option>Storytelling & writing for comics</option>
+             <option>Making comics that go somewhere.</option>
+             <option>Develop your art and style</option>
+              </select><br />
+              
+             
           <div class="col-12 text-center">
            <!-- Button from Bootstrap -->
-          <button id="sign-up" type="button" class="btn btn-primary m-4">
-            Sign up for workshops!
-          </button>
+          <a href="#" id="sign-up" type="button" class="btn btn-primary m-4">
+            Sign up
+          </a>
+          </div>
           </div>
           </div>
       </section>
