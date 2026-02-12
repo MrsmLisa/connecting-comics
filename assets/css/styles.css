@@ -28,7 +28,8 @@ h1, h2, h3 {
 }
 
 img {
-    border: 10px solid white;
+    border: 6px solid white;
+    padding: none;
 }
 
 .navbar-brand {
@@ -38,7 +39,7 @@ img {
 
 #hero {
     background-color: #f7a4c9;
-    background-image: url(../images/Doodle-outline-rosa1.png);
+    background-image: url(../images/Doodle-outline-rosa.png);
     background-size: cover;
 }
 
@@ -48,18 +49,18 @@ header h1 {
     padding: 10rem 0 2rem 0;
 }
 
-#header, #about, #card, #membership, #membership-form {
+#header, #about, #card, #membership, #membership-form, #index-photos {
     background-color: #f7a4c9;
 }
 
 #workshop-card {
     background-color: #67e1f4;
-    border: 10px solid white;
+    border: 6px solid white;
 }
 
 #dandd-card {
     background-color: #73f980;
-    border: 10px solid white;
+    border: 6px solid white;
 }
 
 #hero-workshop {
