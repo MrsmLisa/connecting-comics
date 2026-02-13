@@ -99,6 +99,8 @@ There is one section with information and pictures. The page is responsive and w
 
 On this page is a form that requires you to fill in name, adress, post code, city, phone number and email. The sign up button opens the success page. The page is responsive and will shift depending on the size of the screen. 
 
+picture!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ### 3.1.6. Success page
 
 The success page opens in a new window after you have completed the become a member form. This confirms that they have become a member. It also tells the member what to expect next.
@@ -118,26 +120,55 @@ I would also have liked to put in a section for an interactive map to show the l
 While designing the website I have had the aim to make it as accessible and user friendly as possible. To achieve this I have used:
 
   - Semantic HTML - for this I have used the contrast checker to make sure all my text is visible.
-  - I have also used the Web Disability Simulator to make sure the visuals on the page has enough contrast.
+  - I have also used the [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to make sure the visuals on the page has enough contrast.
   - Aria-labels
 
 ## 4. Technologies used
 
 ### 4.1. Language used
-HTML
-CSS
+HTML  
+CSS  
 Javascript (with Bootstrap 5.3)
 
 ### 4.2 Framework, libraries and programs used
 
 * Git  - for version control and deployment
 * GitHub - used to save files
-* Bootstrap version 5.3 - code used for the navbar and buttons. I have used CSS styling to change the appearance to fit the page
-* Google Fonts - used for all the fonts on the site
-* Font Awesome - used for the social media logos
+* [Bootstrap](https://getbootstrap.com/) version 5.3 - code used for the navbar and buttons. I have used CSS styling to change the appearance to fit the page
+* [Google Fonts](https://fonts.google.com/) - used for all the fonts on the site
+* [Font Awesome](https://fontawesome.com/) - used for the social media logos
 * Chrome dev tools - to test the website and make sure it is all responsive
 
+## 5. Deployment
 
+## 6. Testing
+
+## 7. Credits
+
+### 7.1. Code used
+[Bootstrap](https://getbootstrap.com/) - has been used for the navbar and the buttons, as mentioned before.
+
+### 7.2. Content
+[Google Fonts](https://fonts.google.com/) - used for all the fonts
+[ChatGPT](https://chatgpt.com/) - have been used for the majority of the texts on the site.
+
+### 7.3. Media
+[Freepik](https://www.freepik.com/) - used for images and drawings
+[Image generator](https://image-generator.com/) - used for the AI pictures 
+
+### 7.4. Documentation and testing
+I have used the following sources for my documentation and testing:  
+[Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet)
+[Jehna read me best practices](https://github.com/jehna/readme-best-practices?tab=readme-ov-file)
+[Chandni-L5 pawsome strolls](https://github.com/Chandni-L5/pawsome-strolls/blob/main/README.md) - for the structure of the read me.
+
+All testing sites
+
+### 7.6. Acknowledgements 
+
+Marie Tillman - the president of Connecting Comics for information and support
+Mattis Telin - the vice president of Connecting Comics for information and support
+Daniel Scott - for help with the UX
 
 
 
