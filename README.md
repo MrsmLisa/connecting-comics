@@ -2,10 +2,12 @@
 Connecting Comics is a non-profit association dedicated to supporting comic artists of all levels. Their mission is to build an open, welcoming community where creators can learn, share knowledge, and grow together.
 They organize workshops, drawing sessions, and talks focused on comics — from storytelling and art fundamentals to publishing and career skills. Their events are designed to be accessible, practical, and inspiring.
 
+The live website can be found here: Connecting Comics 
+
 ## 1. User experience
 The website is made for Connecting Comics. Their goal is to become more visible to the comic community, get more members and have more people come to their workshops.
 
-The site provides information about Connecting Comics, the different events they host and testimonies from other members. There is a form to become a member.
+The site provides information about Connecting Comics and the different events they host. There is a form to become a member.
 
 The target audiens for the site are comic artists that want to meet others with the same interests and take part in comic related events.
 
@@ -35,7 +37,7 @@ I have used Font Awesome for the social media icons in the contact form.
 
 **Imagery**
 
-The images used on the page are a mix of photos from Freepik and Unsplash and the AI image generating site  Image Generator. The comic bubbles in the header is from Freepik.
+The images used on the page are a mix of photos from Freepik and the AI image generating site Image Generator. The comic bubbles in the header is from Freepik.
 
 **Wireframes**
 
@@ -54,13 +56,13 @@ All the pages contain a responsive navigation bar. The nav bar is is from Bootst
 <img width="1586" height="162" alt="image" src="https://github.com/user-attachments/assets/f161ce8c-f3fc-4d95-b005-052e9f5af68c" />
 
 **Footer**
-I have split the footer into two sections. The first being a contact info with the adress, phone number and the Font Awsome icons that links to their social media. The second is a contact us form with name, email and message. At the viewport 320px the contact us part goes below the contact info.
+I have split the footer into two sections. The first being a contact info with the associatons adress, phone number and the Font Awsome icons that links to their social media. The second is a contact us form with name, email and message. At the viewport 320px the contact us part goes below the contact info.
 
 <img width="1558" height="748" alt="image" src="https://github.com/user-attachments/assets/1cbba49a-e04f-49bf-95eb-d5ab2a35d09e" />
 
 ### 3.1.2. Index page
 
-The index page contains a hero section with the name and some comic bubbles in the background. The hero exists an all pages but with different text and color to mark the different parts. The index membership sign up and success pages are pink, the workshop page is blue and the Drink and Draw is green.
+The index page contains a hero section with the name and some comic bubbles in the background. The hero exists an all pages but with different text and color to mark the different parts of the website. The index, membership sign up and success pages are pink, the workshop page is blue and the Drink and Draw is green.
 
 The page starts with a short introductory text on the association and pictures to show the main purpose of the website. This allows the user to immediately understand what the purpose of the association. 
 
@@ -126,7 +128,14 @@ HTML
 CSS
 Javascript (with Bootstrap 5.3)
 
-### 4.2
+### 4.2 Framework, libraries and programs used
+
+* Git  - for version control and deployment
+* GitHub - used to save files
+* Bootstrap version 5.3 - code used for the navbar and buttons. I have used CSS styling to change the appearance to fit the page
+* Google Fonts - used for all the fonts on the site
+* Font Awesome - used for the social media logos
+* Chrome dev tools - to test the website and make sure it is all responsive
 
 
 
