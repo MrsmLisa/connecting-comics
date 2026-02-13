@@ -70,6 +70,64 @@ There is text, photos and boxes on the page that are all responsive to different
 
 <img width="981" height="813" alt="image" src="https://github.com/user-attachments/assets/6a3ddca9-1654-472a-9de3-e60495c08d99" />
 
+### 3.1.3. Workshop page
+
+The page start with a short introduction on what to expect to find on the page.
+
+<img width="984" height="332" alt="image" src="https://github.com/user-attachments/assets/13cb7207-5159-4288-9ecf-fbe91bc71626" />
+
+There are two sections to this page. The beginner section contains an unordered list to show the different sessions for the course. The sign up button leads to the bottom of the page where there is a sign up form.
+
+<img width="979" height="756" alt="image" src="https://github.com/user-attachments/assets/8e52174b-b36b-427d-ac51-f831658e88f0" />
+
+The second section shows text and pictures for the advanced courses. 
+
+<img width="981" height="802" alt="image" src="https://github.com/user-attachments/assets/6ddfe23c-5596-4845-942e-ef6f14a29a53" />
+
+At the bottom of the page is a sign up form that makes it easy to sign up for the different workshops with the help of a dropdown menu. The whole page is responsive and will shift depending on the size of the screen.
+
+
+### 3.1.4. Drink & Draw page
+
+There is one section with information and pictures. The page is responsive and will shift depending on the size of the screen. 
+
+<img width="989" height="547" alt="image" src="https://github.com/user-attachments/assets/21685ec9-4503-4b9f-a773-9ec3d3c88d6f" />
+
+### 3.1.5. Become a member page
+
+On this page is a form that requires you to fill in name, adress, post code, city, phone number and email. The sign up button opens the success page. The page is responsive and will shift depending on the size of the screen. 
+
+### 3.1.6. Success page
+
+The success page opens in a new window after you have completed the become a member form. This confirms that they have become a member. It also tells the member what to expect next.
+
+<img width="983" height="340" alt="image" src="https://github.com/user-attachments/assets/b2cb64dc-5109-45bd-9203-278607c828dd" />
+
+### 3.2. Future implementations
+
+In future implementations I would put in testimonials of members that have already taken part in the workshop and Drink & Draw.
+
+I would put in an about page that shows everything that the association stands for and what their future plans are.
+
+I would also have liked to put in a section for an interactive map to show the location of the association.
+
+### 3.3. Accessibility
+
+While designing the website I have had the aim to make it as accessible and user friendly as possible. To achieve this I have used:
+
+  - Semantic HTML - for this I have used the contrast checker to make sure all my text is visible.
+  - I have also used the Web Disability Simulator to make sure the visuals on the page has enough contrast.
+  - Aria-labels
+
+## 4. Technologies used
+
+### 4.1. Language used
+HTML
+CSS
+Javascript (with Bootstrap 5.3)
+
+### 4.2
+
 
 
 
