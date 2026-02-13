@@ -1,0 +1,126 @@
+/* Google fonts*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@300..700&display=swap');
+
+/* Colors
+#f9c703 Yellow
+#f56809 Orange
+#ea006b Pink
+#f3a1c6 light pink
+*/
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "quicksand", sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "luckiest guy", sans-serif;
+    color: black;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#sign-up-button {
+    color: black;
+    background-color: white;
+}
+
+img {
+    border: 6px solid white;
+    padding: none;
+}
+
+.navbar-brand {
+    font-family: "luckiest guy", sans-serif;
+    font-size: 24px;
+}
+
+#hero {
+    background-color: #f7a4c9;
+    background-image: url(../images/Doodle-outline-rosa.png);
+    background-size: cover;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 10rem 0 2rem 0;
+}
+
+#header, #about, #card, #membership, #membership-form, #index-photos {
+    background-color: #f7a4c9;
+}
+
+#workshop-card {
+    background-color: #67e1f4;
+    border: 6px solid white;
+}
+
+#dandd-card {
+    background-color: #4ae6c4;
+    border: 6px solid white;
+}
+
+#hero-workshop {
+    background-color: #67e1f4;
+    background-image: url(../images/doodle-outline-blue.png);
+    background-size: cover;
+}
+
+#blue {
+    background-color: #67e1f4;
+}
+
+#hero-dandd {
+     background-color: #4ae6c4;
+    background-image: url(../images/doodle-outline-green.png);
+    background-size: cover;
+}
+
+#green {
+    background-color: #4ae6c4;
+}
+
+
+
+footer {
+    background-color: black;
+}
+
+footer, footer h1, footer h3 {
+    color: white;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+#social-media {
+    color: white;
+    font-size: 2rem;
+}
+
+#title-size {
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    #title-size {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    #title-size {
+        font-size: 7rem;
+    }
+}
+
+
+
+
