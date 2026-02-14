@@ -74,8 +74,14 @@ header h1 {
     background-size: cover;
 }
 
-#blue {
+.blue {
     background-color: #67e1f4;
+}
+
+.title {
+    font-family: "luckiest guy", sans-serif;
+    font-size: 25px;
+    color: black;
 }
 
 #hero-dandd {
@@ -94,13 +100,19 @@ footer {
     background-color: black;
 }
 
-footer, footer h1, footer h3 {
+.footer-title {
+     font-family: "luckiest guy", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+footer {
     color: white;
     padding-top: 10px;
     margin: 0px;
 }
 
-#social-media {
+#social-media-facebook, #social-media-instagram {
     color: white;
     font-size: 2rem;
 }

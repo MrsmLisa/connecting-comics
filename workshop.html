@@ -61,7 +61,7 @@
     </header>
     <!-- About section -->
      <main>
-    <section id="blue" class="container">
+    <div id="about-workshop" class="container blue">
       <div class="row justify-content-center">
         <div class="col-12 col-md-6 text-center m-4">
           <p>
@@ -71,15 +71,15 @@
           </p>
         </div>
       </div>
-    </section>
+    </div>
     <!--Beginner workshop-->
-          <section id="blue" class="container">
+          <section id="beginner" class="container blue">
         <div class="row justify-content-center">
          <div class="text-center m-2">
           <h1>Beginner course</h1>
          </div>
           <div class="col-12 col-md-5 mt-2">
-            <h4>Comics Workshop</h4>
+            <p class="title">Comics Workshop</p>
             <p>
               Join our beginner-friendly workshop and learn the basics — from
               turning ideas into pages, designing expressive characters, and
@@ -111,17 +111,19 @@
         </div>
          <div class="col-12 text-center">
            <!-- Button code copied from Bootstrap -->
+          <a href="#workshop-form">
           <input value="Sign up for workshops!" type="button" class="btn btn-primary m-4">
+          </a>
           </div>
       </section>
       <!--Advanced workshops-->
-      <section id="blue" class="container">
+      <section id="advances" class="container blue">
         <div class="row justify-content-center">
           <div class="text-center mt-4">
           <h1>Advanced workshops</h1>
          </div>
           <div class="col-12 col-md-5 mt-2">
-            <h4>Storytelling & Writing for Comics</h4>
+            <p class="title">Storytelling & Writing for Comics</p>
             <p>
               A hands-on workshop for writers and artists who want to tell
               stronger comic stories. Learn how to communicate through images
@@ -139,18 +141,17 @@
               class="img-fluid"/>
           </div>
         </div>
-      </section>
-      <section id="blue" class="container">
+      
         <div class="row justify-content-center">
           <div class="col-12 col-md-5 mt-4">
-            <h4>Making Comics That Go Somewhere</h4>
+            <p class="title">Making Comics That Go Somewhere</p>
             <p>
              A career-focused workshop for comic artists who want to finish projects and share their work. Learn how to manage workflows and deadlines, avoid burnout, self-publish comics and zines, grow an audience through webcomics and social media, and get valuable portfolio feedback from professionals. Turn your comic work into something ready for the world.
             </p>
             <p><strong>Tuesday April 14th <br>6pm - 9pm</strong></p>
           </div>
           <div class="col-12 col-md-5 mt-4">
-          <h4>Develope youre Art & Style</h4>
+          <p class="title">Develope youre Art & Style</p>
           <p>
             Ready to push your comic art further? This intermediate-level
             workshop dives into inking techniques, color and mood, finding your
@@ -161,13 +162,13 @@
           <p><strong>Tuesday March 24th <br>6pm - 9pm</strong></p>
           </div>
           <div class="col-12 col-md-6 mt-4" id="workshop-form">
-            <h3>Sign up for workshop</h3>
+            <h1>Sign up for workshop</h1>
             <form action="success-workshop.html" method="get">
               <label for="name">Name</label><br />
               <input
                 class="col-12"
                 type="text"
-                id="name"
+                id="name-workshop"
                 name="name"
                 required
                 placeholder="Your Name"
@@ -176,13 +177,13 @@
               <input
                 class="col-12"
                 type="email"
-                id="email"
+                id="email-workshop"
                 name="email"
                 required
                 placeholder="Email"
               /><br />
               <label for="message">Workshop</label><br />
-              <select name="workshop-form" id="workshop-form" class="" required>
+              <select name="workshop" id="workshop-from-dropdown" class="" required>
              <option value="">Select</option>
              <option>Beginners</option>
              <option>Storytelling & writing for comics</option>
@@ -195,7 +196,9 @@
            <!-- Button code copied from Bootstrap -->
           <input value="Sign up for workshops!" type="button" class="btn btn-primary m-4">
           </div>
-      </section>
+          </div>
+    </section>
+    
       </main>
 
     <!-- Footer -->
@@ -203,13 +206,13 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-6 col-lg-4 mt-4">
-            <h3>Contact info</h3>
-            <address mb-4>
+            <p class="footer-title">Contact info</p>
+            <address class="mb-4">
               <strong>Connecting Comics</strong><br />
               Kristianstadsgatan 41 <br />
               21435 Malmö
             </address>
-            <p m-1>
+            <p class="m-1">
               <strong>Phone Number</strong><br />
               0768-864 668
             </p>
@@ -218,20 +221,20 @@
               href="https://www.facebook.com"
               aria-label="Visit our Facebook (opens in a new window)"
               target="_blank"
-              id="social-media"
+              id="social-media-facebook"
               ><i class="fa-brands fa-facebook"></i
             ></a>
             <a
               href="https://www.instagram.com"
               aria-label="Visit our Instagram (opens in a new window)"
               target="_blank"
-              id="social-media"
+              id="social-media-instagram"
               ><i class="fa-brands fa-instagram"></i
             ></a>
           </div>
           <!-- Contact us -->
           <div class="col-12 col-md-6 mt-4" id="contact">
-            <h3>Contact Us</h3>
+            <p class="footer-title">Contact Us</p>
             <form action="signup-form" method="get">
               <label for="name">Name</label><br />
               <input
