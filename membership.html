@@ -18,7 +18,7 @@
     <!--Link stylesheet-->
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-<!-- I have used bootstrap throughout the website -->
+  <!-- I have used bootstrap throughout the website -->
 
   <body>
     <!-- Bootstrap Navbar with Toggle copied code-->
@@ -67,55 +67,74 @@
     <main>
       <!-- Membership form -->
       <section id="membership-form" class="container">
-        <div class="row justify-content-center">
-        <div class="col-12 text-center mt-4">
-          <h1>Become a member!</h1>
-        </div>
-        
-          <div class="col-12 col-md-10 col-lg-6">
-            <form action="sign-up" method="get" class="row">
-              <label for="name">Full Name</label><br />
-              <input type="text" id="full-name" class="col-12" required />
-
-              <label for="address">Street address</label><br />
-              <input type="text" id="street-address" class="col-12" required />
-
-              <label for="post-code">Postal Code</label><br />
+       <form action="membership-form" method="get">
+        <div class="justify-content-center">
+              <label for="name">Name</label><br />
               <input
+                class="col-12 col-md-10 col-md-8"
                 type="text"
-                id="post-code"
-                class="col-12 col-md-5"
+                id="name"
+                name="name"
                 required
-              />
-
-              <label for="city">City</label><br />
-              <input type="text" class="col-12 col-md-5" id="city" required />
-
-              <label for="phonenumber">Phone Number</label><br />
+                placeholder="Your Name"
+              /><br />
+              <label for="address">Address</label><br />
               <input
-                type="tel"
-                id="phonenumber"
-                class="col-12 col-md-5"
+                class="col-12 col-md-10 col-md-8"
+                type="text"
+                id="address"
+                name="address"
                 required
-              />
-
+                placeholder="Address"
+              /><br />
+              <label for="zip">Post code</label><br />
+              <input
+                class="col-12 col-md-10 col-md-8"
+                type="zip"
+                id="zip"
+                name="zip"
+                required
+                placeholder="Post code"
+              /><br />
+              <label for="city">City</label><br />
+              <input
+                class="col-12 col-md-10 col-md-8"
+                type="text"
+                id="city"
+                name="city"
+                required
+                placeholder="City"
+              /><br />
               <label for="email">Email</label><br />
-              <input type="email" class="col-12 col-md-5" id="email" required />
-
-              <!-- Button from Bootstrap -->
-              <div class="text-center m-3">
-                <a
-                  href="#"
-                  id="submit"
-                  type="button"
-                  class="btn btn-primary m-2"
-                >
-                  Sign up!
-                </a>
+              <input
+                class="col-12 col-md-10 col-md-8"
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Email"
+              /><br />
+              <label for="phonenumber">Phone number</label><br />
+              <input
+                class="col-12 col-md-10 col-md-8"
+                type="text"
+                id="phonenumber"
+                name="phonenumber"
+                required
+                placeholder="Phone number"
+              /><br />
+              
+             
+              <!-- Button code copied from Bootstrap -->
+              <input
+                value="Submit"
+                id="membership-button"
+                type="submit"
+                class="btn btn-primary mt-2 mb-4"
+              /><br />
               </div>
             </form>
-          </div>
-        </div>
+        
       </section>
     </main>
     <!-- Footer -->
@@ -182,12 +201,12 @@
               ></textarea
               ><br />
               <!-- Button code copied from Bootstrap -->
-               <input
-              value="Submit"
-              id="contact-button"
-              type="submit"
-              class="btn btn-primary mt-2 mb-4"
-            ><br />
+              <input
+                value="Submit"
+                id="contact-button"
+                type="submit"
+                class="btn btn-primary mt-2 mb-4"
+              /><br />
             </form>
           </div>
         </div>
