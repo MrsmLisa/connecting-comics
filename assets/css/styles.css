@@ -34,7 +34,6 @@ h1, h2, h3, h4 {
 
 img {
     border: 6px solid white;
-    padding: none;
 }
 
 .navbar-brand {
@@ -44,12 +43,11 @@ img {
 
 #hero {
     background-color: #f7a4c9;
-    background-image: url(../images/Doodle-outline-rosa-ny.png);
+    background-image: url(../images/Doodle-outline-vit.webp);
     background-size: cover;
 }
 
 header h1 {
-    color: white;
     text-align: center;
     padding: 10rem 0 2rem 0;
 }
@@ -70,7 +68,7 @@ header h1 {
 
 #hero-workshop {
     background-color: #67e1f4;
-    background-image: url(../images/doodle-outline-blue.png);
+    background-image: url(../images/Doodle-outline-vit.webp);
     background-size: cover;
 }
 
@@ -86,7 +84,7 @@ header h1 {
 
 #hero-dandd {
      background-color: #4ae6c4;
-    background-image: url(../images/doodle-outline-green.png);
+    background-image: url(../images/Doodle-outline-vit.webp);
     background-size: cover;
 }
 
