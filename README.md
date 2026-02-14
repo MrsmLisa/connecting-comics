@@ -1,4 +1,5 @@
-<img width="933" height="184" alt="logo" src="https://github.com/user-attachments/assets/92a12839-991e-48fd-8fd5-235f77a82de3" />
+<img scr="assets/screenshots/title.webp">
+
 Connecting Comics is a non-profit association dedicated to supporting comic artists of all levels. Their mission is to build an open, welcoming community where creators can learn, share knowledge, and grow together.
 They organize workshops, drawing sessions, and talks focused on comics — from storytelling and art fundamentals to publishing and career skills. Their events are designed to be accessible, practical, and inspiring.
 
@@ -51,14 +52,14 @@ The website consists of three pages, one page for the membership form and one fo
 **Navigation**
 All the pages contain a responsive navigation bar. The nav bar is is from Bootstrap as I wanted a fully collapsable bar with a toggler. The toggler with the burger icon appears in viewpoints 768px or smaller. I changed the font for the associations name to match the rest of the headers. The associations name navigates back to the home-page. The other links lead to their pages except for the contact link that takes you down to the bottom of the form. The navbar is fixed at the top so it is easily accessible.
 
-<img width="2268" height="160" alt="image" src="https://github.com/user-attachments/assets/c90de00b-13e8-44fa-87c4-7de3ed766a8a" />
+<img scr="assets/screenshots/nav-1.webp">
 
-<img width="1586" height="162" alt="image" src="https://github.com/user-attachments/assets/f161ce8c-f3fc-4d95-b005-052e9f5af68c" />
+<img scr="assets/screenshots/navbar-2.webp"/>
 
 **Footer**
 I have split the footer into two sections. The first being a contact info with the associatons adress, phone number and the Font Awsome icons that links to their social media. The second is a contact us form with name, email and message. At the viewport 320px the contact us part goes below the contact info.
 
-<img width="1558" height="748" alt="image" src="https://github.com/user-attachments/assets/1cbba49a-e04f-49bf-95eb-d5ab2a35d09e" />
+<img scr="assets/screenshots/footer.webp" />
 
 ### 3.1.2. Index page
 
@@ -66,46 +67,47 @@ The index page contains a hero section with the name and some comic bubbles in t
 
 The page starts with a short introductory text on the association and pictures to show the main purpose of the website. This allows the user to immediately understand what the purpose of the association. 
 
-<img width="924" height="370" alt="image" src="https://github.com/user-attachments/assets/ebe884a3-0606-4100-a7e8-c351c5000a9a" />
+<img scr="assets/screenshots/index-1.webp" />
 
 There is text, photos and boxes on the page that are all responsive to different devices. The color of the boxes represent the color of the two pages so it is easy to see what belongs where. The buttons are in black to make them stand out more.
 
-<img width="981" height="813" alt="image" src="https://github.com/user-attachments/assets/6a3ddca9-1654-472a-9de3-e60495c08d99" />
+<img scr="assets/screenshots/index-2.webp"/>
 
 ### 3.1.3. Workshop page
 
 The page start with a short introduction on what to expect to find on the page.
 
-<img width="984" height="332" alt="image" src="https://github.com/user-attachments/assets/13cb7207-5159-4288-9ecf-fbe91bc71626" />
+<img scr="assets/screenshots/workshop-title.webp"/>
 
 There are two sections to this page. The beginner section contains an unordered list to show the different sessions for the course. The sign up button leads to the bottom of the page where there is a sign up form.
 
-<img width="979" height="756" alt="image" src="https://github.com/user-attachments/assets/8e52174b-b36b-427d-ac51-f831658e88f0" />
+<img scr="assets/screenshots/workshop-beginner.webp"/>
 
 The second section shows text and pictures for the advanced courses. 
 
-<img width="981" height="802" alt="image" src="https://github.com/user-attachments/assets/6ddfe23c-5596-4845-942e-ef6f14a29a53" />
+<img scr="assets/screenshots/workshop-advanced.webp"/>
 
 At the bottom of the page is a sign up form that makes it easy to sign up for the different workshops with the help of a dropdown menu. The whole page is responsive and will shift depending on the size of the screen.
 
+<img scr="assets/screenshots/workshop-signup.webp">
 
 ### 3.1.4. Drink & Draw page
 
 There is one section with information and pictures. The page is responsive and will shift depending on the size of the screen. 
 
-<img width="989" height="547" alt="image" src="https://github.com/user-attachments/assets/21685ec9-4503-4b9f-a773-9ec3d3c88d6f" />
+<img scr="assets/screenshots/drink-&-draw.webp"/>
 
 ### 3.1.5. Become a member page
 
 On this page is a form that requires you to fill in name, adress, post code, city, phone number and email. The sign up button opens the success page. The page is responsive and will shift depending on the size of the screen. 
 
-picture!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<img scr="assets/screenshots/member.webp">
 
 ### 3.1.6. Success page
 
 The success page opens in a new window after you have completed the become a member form. This confirms that they have become a member. It also tells the member what to expect next.
 
-<img width="983" height="340" alt="image" src="https://github.com/user-attachments/assets/b2cb64dc-5109-45bd-9203-278607c828dd" />
+<img scr="assets/screenshots/success.webp" />
 
 ### 3.2. Future implementations
 
