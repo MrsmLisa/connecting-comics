@@ -172,7 +172,7 @@
                 required
                 placeholder="Your Name"
               /><br />
-              <label for="email">Email</label><br />
+              <label for="email">Email</label><br>
               <input
                 class="col-12"
                 type="email"
@@ -189,11 +189,12 @@
              <option>Making comics that go somewhere.</option>
              <option>Develop your art and style</option>
               </select><br />
+               <div class="col-12 text-center">
+          <input id="workshop-button-signup" class="btn btn-primary m-4" type="submit" value="Sign up">
+          </div>
             </form>
           </div>
-           <div class="col-12 text-center">
-          <a id="workshop-button-signup" class="btn btn-primary m-4">Sign up for workshops!</a>
-          </div>
+          
           </div>
     </section>
     
@@ -262,10 +263,12 @@
                 placeholder="Message"
               ></textarea
               ><br />
-               <a href="#"
+               <input
+               type="submit"
               id="contact-button"
               class="btn btn-primary mt-2 mb-4"
-            ></a>Submit<br />
+              value="Submit"
+            ><br />
             </form>
           </div>
         </div>
