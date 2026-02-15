@@ -156,6 +156,47 @@ Javascript (with Bootstrap 5.3)
 
 ## 6. Testing
 
+### 6.1 Fixing bugs
+There was a number of issues that was noted during the testing of the site.
+
+On the index and drink & draw pages there was a issue with the images when the page went over 768px. 
+After talking with the mentor Rory Patrick Sherid we realized the problem was centering it in the child <div> and not just the parent <div>.
+
+![bug-img](https://github.com/user-attachments/assets/20d31069-afc8-4315-a0e5-22fa7fc5329c)
+
+
+### 6.2 Manual testing
+The site has been tested on Macbook Pro, Iphone 14 pro and Iphone 11. It has also been tested on Chrome, Firefox and Safari 
+
+
+### 6.3 Lighthouse
+I have used Lighthouse in dev tools to test the performance, accessibility and best practices.
+The first time I had a 72 on performance, 99 on accessibility and 100 for best practices. 
+The problem was the size of the images that I first resized in Photoshop and then compressed using FreeConvert. The new score is:
+
+For desktop:
+
+![lighthouse-desktop](https://github.com/user-attachments/assets/1022daed-8a49-4f18-96f0-5f49501c71fb)
+
+For mobile:
+
+
+![lighthouse-mobile](https://github.com/user-attachments/assets/464c9541-0e0f-4962-b946-19b71950ea66)
+
+
+### 6.4 Validation
+Validator W3 was used to check the HTML. There was a warning on the index page on a <section> because it did not have a heading, it was changed to a <div>. There was also a button that missed a type=”submit”. After that there was no warnings or errors left.
+
+![validator-html](https://github.com/user-attachments/assets/757e0d1c-a33a-4983-9586-1d9069e51f41)
+
+I used the W3C CSS validation for the CSS that had no warnings.
+
+![validator-css](https://github.com/user-attachments/assets/ad5f307a-da97-495a-92b9-bf3a34a597b3)
+
+
+Autoprefixer css
+I used Autoprefixer to add vendor prefixes to the CSS.
+
 ## 7. Credits
 
 ### 7.1. Code used
@@ -168,14 +209,16 @@ Javascript (with Bootstrap 5.3)
 ### 7.3. Media
 [Freepik](https://www.freepik.com/) - used for images and drawings
 [Image generator](https://image-generator.com/) - used for the AI pictures 
+[Free Convert](https://www.freeconvert.com/compress-png) - to convert and compress the images.
 
 ### 7.4. Documentation and testing
 I have used the following sources for my documentation and testing:  
 [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet) - to help with the read me.
 [Jehna read me best practices](https://github.com/jehna/readme-best-practices?tab=readme-ov-file) - to help with the read me.
 [Chandni-L5 pawsome strolls](https://github.com/Chandni-L5/pawsome-strolls/blob/main/README.md) - for the structure of the read me.
-
-All testing sites
+[validator](https://validator.w3.org/nu/#textarea) - to check the HTML.
+[W3C](https://jigsaw.w3.org/css-validator/) - to check the CSS.
+[autoprefixer](https://autoprefixer.github.io/) - to add vendor prefixes to CSS.
 
 ### 7.6. Acknowledgements 
 
