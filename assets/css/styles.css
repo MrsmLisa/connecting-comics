@@ -1,14 +1,7 @@
 /* Google fonts*/
 
-
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@300..700&display=swap');
 
-/* Colors
-#f9c703 Yellow
-#f56809 Orange
-#ea006b Pink
-#f3a1c6 light pink
-*/
 
 body {
     background-color: white;
@@ -91,8 +84,6 @@ header h1 {
 #green {
     background-color: #4ae6c4;
 }
-
-
 
 footer {
     background-color: black;
