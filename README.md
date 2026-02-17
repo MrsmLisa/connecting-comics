@@ -179,7 +179,6 @@ The website is deployed using GitHub Pages.
 ## 6. Testing
 
 ### 6.1 Fixing bugs
-There was a number of issues that was noted during the testing of the site.
 
 On the index and drink & draw pages there was a issue with the images when the page went over 768px. 
 After talking with the mentor Rory Patrick Sherid we realized the problem was centering it in the child <div> and not just the parent <div>.
@@ -222,31 +221,33 @@ I used Autoprefixer to add vendor prefixes to the CSS.
 ## 7. Credits
 
 ### 7.1. Code used
-[Bootstrap](https://getbootstrap.com/) - has been used for the navbar and the buttons, as mentioned before.
+[Bootstrap](https://getbootstrap.com/) - has been used for the navbar and the buttons, as mentioned before.  
+[Favicon](https://favicon.io/) - for the Favicon
 
 ### 7.2. Content
-[Google Fonts](https://fonts.google.com/) - used for all the fonts
+[Google Fonts](https://fonts.google.com/) - used for all the fonts  
 [ChatGPT](https://chatgpt.com/) - have been used for the majority of the texts on the site.
 
 ### 7.3. Media
-[Freepik](https://www.freepik.com/) - used for images and drawings
-[Image generator](https://image-generator.com/) - used for the AI pictures 
-[Free Convert](https://www.freeconvert.com/compress-png) - to convert and compress the images.
+[Freepik](https://www.freepik.com/) - used for images and drawings  
+[Image generator](https://image-generator.com/) - used for the AI pictures  
+[Free Convert](https://www.freeconvert.com/compress-png) - to convert and compress the images.  
 
 ### 7.4. Documentation and testing
 I have used the following sources for my documentation and testing:  
-[Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet) - to help with the read me.
-[Jehna read me best practices](https://github.com/jehna/readme-best-practices?tab=readme-ov-file) - to help with the read me.
-[Chandni-L5 pawsome strolls](https://github.com/Chandni-L5/pawsome-strolls/blob/main/README.md) - for the structure of the read me.
-[validator](https://validator.w3.org/nu/#textarea) - to check the HTML.
-[W3C](https://jigsaw.w3.org/css-validator/) - to check the CSS.
-[autoprefixer](https://autoprefixer.github.io/) - to add vendor prefixes to CSS.
+[Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet) - to help with the read me.  
+[Jehna read me best practices](https://github.com/jehna/readme-best-practices?tab=readme-ov-file) - to help with the read me.  
+[Chandni-L5 pawsome strolls](https://github.com/Chandni-L5/pawsome-strolls/blob/main/README.md) - for the structure of the read me.  
+[validator](https://validator.w3.org/nu/#textarea) - to check the HTML.  
+[W3C](https://jigsaw.w3.org/css-validator/) - to check the CSS.  
+[autoprefixer](https://autoprefixer.github.io/) - to add vendor prefixes to CSS.  
 
 ### 7.6. Acknowledgements 
 
-Marie Tillman - the president of Connecting Comics for information and support
-Mattis Telin - the vice president of Connecting Comics for information and support
-Daniel Scott - for help with the UX
+Marie Tillman - the president of Connecting Comics for information and support  
+Mattis Telin - the vice president of Connecting Comics for information and support  
+Rory Patrick Sherid - for help with the debugging and advice  
+Daniel Scott - for help with the UX  
 
 
 
