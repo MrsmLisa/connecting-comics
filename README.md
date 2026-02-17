@@ -58,6 +58,13 @@ I have used [Whimsical](https://whimsical.com/NUaoZPehNUzcEhNhGutvGB) to build t
 
 ![Wireframe](https://github.com/user-attachments/assets/37602158-0cb1-4399-ba67-47e03404db43)
 
+**Project planning**
+
+I have used the project planning in GitHub to help me with my tasks. I made a misstake and user stoy 4 should have been split, two of the tasks should have been should have. I have made a comment in the item.
+
+
+![project-planning](https://github.com/user-attachments/assets/cc555a03-997c-41e2-bf04-b8e464e40be1)
+
 
 ## 3. Features
 
