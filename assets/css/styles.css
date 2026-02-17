@@ -42,18 +42,18 @@ img {
 }
 
 #hero {
-    background-color: #f7a4c9;
+    background-color: #ffa8b7;
     background-image: url(../images/Doodle-outline-vit.webp);
     background-size: cover;
 }
 
 header h1 {
     text-align: center;
-    padding: 10rem 0 2rem 0;
+    padding: 8rem 0 2rem 0;
 }
 
 #header, #about, #card, #membership, #membership-form, #index-photos {
-    background-color: #f7a4c9;
+    background-color: #ffa8b7;
 }
 
 #workshop-card {
