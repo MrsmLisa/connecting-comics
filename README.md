@@ -5,7 +5,7 @@
 Connecting Comics is a non-profit association dedicated to supporting comic artists of all levels. Their mission is to build an open, welcoming community where creators can learn, share knowledge, and grow together.
 They organize workshops, drawing sessions, and talks focused on comics — from storytelling and art fundamentals to publishing and career skills. Their events are designed to be accessible, practical, and inspiring.
 
-The live website can be found here: Connecting Comics 
+The live website can be found here: [Connecting Comics](https://mrsmlisa.github.io/connecting-comics/index.html) 
 
 ## 1. User experience
 The website is made for Connecting Comics. Their goal is to become more visible to the comic community, get more members and have more people come to their workshops.
@@ -16,10 +16,12 @@ The target audiens for the site are comic artists that want to meet others with 
 
 **User stories**
 
-As a First-Time Visitor, I want to be able to find information quickly and without problem. I want user-friendly design that works on different devises.
-I want high quality images and engaging illustrations.
-I want to easily find the information on what the workshops entail and an easy way to sign up.
-As a potential member I want an easy-to-use membership form. 
+As a First-Time Visitor: 
+ * I want to be able to find information quickly and without problem. 
+ * I want user-friendly design that works on different devises.
+ * I want high quality images and engaging illustrations.
+ * I want to easily find the information on what the workshops entail and an easy way to sign up.
+ * As a potential member I want an easy-to-use membership form. 
 
 ## 2. Design
 
@@ -178,7 +180,34 @@ The website is deployed using GitHub Pages.
 
 ## 6. Testing
 
-### 6.1 Fixing bugs
+### 6.1 Testing user stories
+
+ * I want to be able to find information quickly and without problem.
+
+![User-stories-1](https://github.com/user-attachments/assets/da790b4a-34d9-4f7c-a800-8af6b68b3b28)
+
+
+ * I want user-friendly design that works on different devises.
+
+![device-sizes](https://github.com/user-attachments/assets/16a96357-90ae-4489-9665-11110f30a847)
+
+
+ * I want high quality images and engaging illustrations.
+
+![user-story-2](https://github.com/user-attachments/assets/75b8eb3c-9834-47db-b41e-ffae45ed460d)
+
+
+ * I want to easily find the information on what the workshops entail and an easy way to sign up.
+![user-story-3](https://github.com/user-attachments/assets/5628e514-5ff0-400a-b8a5-8168f11d6238)
+
+![user-story-5](https://github.com/user-attachments/assets/6899f139-2953-46f0-a23b-c8958e493771)
+
+ * As a potential member I want an easy-to-use membership form.
+
+![user-story-4](https://github.com/user-attachments/assets/726ea7f4-83c0-4e21-b6ff-479f345b7562)
+
+
+### 6.2 Fixing bugs
 
 On the index and drink & draw pages there was a issue with the images when the page went over 768px. 
 After talking with the mentor Rory Patrick Sherid we realized the problem was centering it in the child <div> and not just the parent <div>.
@@ -186,11 +215,11 @@ After talking with the mentor Rory Patrick Sherid we realized the problem was ce
 ![bug-img](https://github.com/user-attachments/assets/20d31069-afc8-4315-a0e5-22fa7fc5329c)
 
 
-### 6.2 Manual testing
+### 6.3 Manual testing
 The site has been tested on Macbook Pro, Iphone 14 pro and Iphone 11. It has also been tested on Chrome, Firefox and Safari 
 
 
-### 6.3 Lighthouse
+### 6.4 Lighthouse
 I have used Lighthouse in dev tools to test the performance, accessibility and best practices.
 The first time I had a 72 on performance, 99 on accessibility and 100 for best practices. 
 The problem was the size of the images that I first resized in Photoshop and then compressed using FreeConvert. The new score is:
@@ -205,18 +234,15 @@ For mobile:
 ![lighthouse-mobile](https://github.com/user-attachments/assets/464c9541-0e0f-4962-b946-19b71950ea66)
 
 
-### 6.4 Validation
+### 6.5 Validation
 Validator W3 was used to check the HTML. There was a warning on the index page on a <section> because it did not have a heading, it was changed to a <div>. There was also a button that missed a type=”submit”. After that there was no warnings or errors left.
 
 ![validator-html](https://github.com/user-attachments/assets/757e0d1c-a33a-4983-9586-1d9069e51f41)
 
-I used the W3C CSS validation for the CSS that had no warnings.
-
+I used the W3C CSS validation for the CSS that had no warnings.  
 ![validator-css](https://github.com/user-attachments/assets/ad5f307a-da97-495a-92b9-bf3a34a597b3)
 
-
-Autoprefixer css
-I used Autoprefixer to add vendor prefixes to the CSS.
+I used Autoprefixer to add vendor prefixes to the CSS.  
 
 ## 7. Credits
 
