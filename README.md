@@ -25,7 +25,13 @@ As a potential member I want an easy-to-use membership form.
 
 **Colour scheme**
 
+For the website I wanted to use bright colors to make it stand out. I also wanted a different color for the different parts of the website. The pages about the association, becoming a member and the membership success page are all pink. The workshop and the workshop sign-up success page are blue. The Drink & Draw is green. 
+
+![Color](https://github.com/user-attachments/assets/4412db77-ce73-46be-9375-394ee244786c)
+
+
 **Typography**
+
 I have used font from google font for the site.
 Luckiest guy is used for page title, headers throughout the page and for the name of the company in the navbar.
 
@@ -40,7 +46,14 @@ I have used Font Awesome for the social media icons in the contact form.
 
 **Imagery**
 
-The images used on the page are from the AI image generating sites Image Generator and Freepik. The comic bubbles in the header is from Freepik.
+The images used on the page are from the AI image generating sites Image Generator and Freepik. The comic bubbles in the header is from Freepik. I have put a white frame around all of the images so they stand out from the colored backgraound.
+
+**Wireframe**
+
+I have used [Whimsical](https://whimsical.com/NUaoZPehNUzcEhNhGutvGB) to build the wireframe for the site. 
+
+![Wireframe](https://github.com/user-attachments/assets/37602158-0cb1-4399-ba67-47e03404db43)
+
 
 ## 3. Features
 
@@ -153,6 +166,15 @@ Javascript (with Bootstrap 5.3)
 * Chrome dev tools - to test the website and make sure it is all responsive
 
 ## 5. Deployment
+
+The website is deployed using GitHub Pages.
+
+ 1. Login to GitHub
+ 2. Go to the repository for this project - [Connecting Comics](https://github.com/MrsmLisa/connecting-comics)
+ 3. Go to the settings
+ 4. Select pages in the left hand menu
+ 5. Make sure that the source dropdown is on ”Deploy from branch” and the Branch is selected main and then press save.
+ 6. The site has been deployed and after a few minutes and a link can be found in the deployment section.
 
 ## 6. Testing
 
