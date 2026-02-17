@@ -1,6 +1,8 @@
 
 ![title](https://github.com/user-attachments/assets/5fc99ae3-b938-41ea-a6d7-ecb43558b764)
 
+![device-sizes](https://github.com/user-attachments/assets/aab0d5c8-a46c-4e4f-91fd-741367ea71e8)
+
 
 Connecting Comics is a non-profit association dedicated to supporting comic artists of all levels. Their mission is to build an open, welcoming community where creators can learn, share knowledge, and grow together.
 They organize workshops, drawing sessions, and talks focused on comics — from storytelling and art fundamentals to publishing and career skills. Their events are designed to be accessible, practical, and inspiring.
