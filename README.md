@@ -178,7 +178,7 @@ Javascript (with Bootstrap 5.3)
 
 ## 5. Deployment
 
-The website is deployed using GitHub Pages.
+**The website is deployed using GitHub Pages.**
 
  1. Login to GitHub
  2. Go to the repository for this project - [Connecting Comics](https://github.com/MrsmLisa/connecting-comics)
@@ -186,6 +186,13 @@ The website is deployed using GitHub Pages.
  4. Select pages in the left hand menu
  5. Make sure that the source dropdown is on ”Deploy from branch” and the Branch is selected main and then press save.
  6. The site has been deployed and after a few minutes and a link can be found in the deployment section.
+
+**Local deployment**
+
+ 1. Go to the repository for this project - [Connecting Comics](https://github.com/MrsmLisa/connecting-comics)
+ 2. Click on the Code button and copy the URL (HTTPS).
+ 3. Open your terminal or command prompt.
+ 4. Clone the repository.
 
 ## 6. Testing
 
