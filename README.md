@@ -68,7 +68,7 @@ I have used the project planning in GitHub to help me with my tasks. I made a mi
 
 ## 3. Features
 
-The website consists of three pages, one page for the membership form and one for the success page (five pages in total). The first page contains a short description of the association and links for the different events. The second page contains the workshops that the association offers. The third contains their event Drink and Draw. 
+The website consists of three pages, one page for the membership form and one for the success page (five pages in total). The first page contains a short description of the association and links for the different events. The second page contains the workshops that the association offers. The third contains their event Drink and Draw. I have used Bootstrap thougout the website. The navbar and buttons is the only code I have copied.
 
 ### 3.1 General features
 ### 3.1.1 All pages
@@ -171,7 +171,7 @@ Javascript (with Bootstrap 5.3)
 
 * Git  - for version control and deployment
 * GitHub - used to save files
-* [Bootstrap](https://getbootstrap.com/) version 5.3 - code used for the navbar and buttons. I have used CSS styling to change the appearance to fit the page
+* [Bootstrap](https://getbootstrap.com/) version 5.3 - code througout the website. I have used CSS styling to change the appearance to fit the page
 * [Google Fonts](https://fonts.google.com/) - used for all the fonts on the site
 * [Font Awesome](https://fontawesome.com/) - used for the social media logos
 * Chrome dev tools - to test the website and make sure it is all responsive
